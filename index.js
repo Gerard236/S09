@@ -12,6 +12,4 @@ const myController = require('./controller/controllerJoi');
 
 app.use('/api/v1/ex1', require('./routes/rutesJoi.js'));
 
-app.listen(3000, function(){
-    console.log('My Server is running!!! on port 3000');
-});
+
